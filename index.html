@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henna by Misba Tales | Adorned with Love</title>
+    
+    <!-- Google Fonts: Montserrat & Dancing Script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Floral Background Elements (Corners) -->
+    <div class="floral-corner top-left"></div>
+    <div class="floral-corner bottom-right"></div>
+    <div class="floral-vine left-mid"></div>
+    <div class="floral-vine right-mid"></div>
+
+    <!-- Petals Container -->
+    <div id="petals-container"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#top" class="nav-logo">
+                <img src="./assets/website_logo.jpeg" alt="Logo">
+            </a>
+            
+            <!-- Hamburger Menu for Mobile -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#top">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#feedback">FEEDBACK</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="https://wa.me/919136773615" class="btn-pill" id="btn-bloom-nav">
+                    <span class="icon-phone"></span> BOOK NOW
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="top">
+        <div class="hero-container">
+            <div class="hero-left">
+                <p class="hero-tagline">GET YOUR HANDS ADORNED WITH HENNA</p>
+                <h1 class="hero-brand">Henna by Misba Tales</h1>
+                <h2 class="hero-script">Henna</h2>
+                <div class="decorative-sep"><span></span> <i class="flower-dot"></i> <span></span></div>
+                <p class="hero-desc">Beautiful Henna designs for every occasion. Crafted with love, tradition and perfection.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-pill primary">BOOK NOW</a>
+                    <a href="https://instagram.com/_hennabymisba_" target="_blank" class="btn-pill outline">FOLLOW US</a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <a href="#contact" class="logo-cta-link" aria-label="Book Now">
+                    <div class="logo-frame-container">
+                        <div class="floral-frame-cluster"></div>
+                        <img src="./assets/website_logo.jpeg" alt="Henna by Misba Tales Large Logo" class="hero-large-logo">
+                        <div class="cta-badge">BOOK NOW</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services reveal">
+        <div class="section-header">
+            <h2 class="section-title">MY SERVICES</h2>
+            <div class="decorative-sep"><span></span> <i class="flower-dot"></i> <span></span></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon henna-icon"></div>
+                <h3>BRIDAL MEHNDI</h3>
+                <p>Intricate and traditional bridal mehndi designs to make your big day extra special.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon flower-icon"></div>
+                <h3>ARABIC MEHNDI</h3>
+                <p>Elegant and stylish Arabic designs with bold strokes and beautiful patterns.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon leaf-icon"></div>
+                <h3>MINIMAL MEHNDI</h3>
+                <p>Simple, subtle and elegant designs perfect for any occasion.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="feedback reveal">
+        <div class="section-header">
+            <h2 class="section-title">CLIENT FEEDBACK</h2>
+            <div class="decorative-sep"><span></span> <i class="flower-dot"></i> <span></span></div>
+        </div>
+        <div class="feedback-masonry">
+            <div class="feedback-item"><img src="./assets/feedback_1.png" alt="Feedback"></div>
+            <div class="feedback-item"><img src="./assets/feedback_2.png" alt="Feedback"></div>
+            <div class="feedback-item"><img src="./assets/feedback_3.png" alt="Feedback"></div>
+            <div class="feedback-item"><img src="./assets/feedback_4.png" alt="Feedback"></div>
+            <div class="feedback-item"><img src="./assets/feedback_5.png" alt="Feedback"></div>
+            <div class="feedback-item"><img src="./assets/feedback_6.png" alt="Feedback"></div>
+            <div class="feedback-item"><img src="./assets/feedback_7.png" alt="Feedback"></div>
+        </div>
+    </section>
+
+    <!-- About & Contact Section -->
+    <section id="contact" class="about-contact reveal">
+        <div class="split-container">
+            <!-- About Me Column -->
+            <div id="about" class="col-left about-col">
+                <h2 class="section-title">ABOUT ME</h2>
+                <div class="decorative-sep"><span></span> <i class="flower-dot"></i> <span></span></div>
+                <p>Hi, I'm Misba! I'm a passionate henna artist who believes in turning your special moments into beautiful memories with the art of henna. Every design is crafted with patience, love and perfection.</p>
+                <a href="https://instagram.com/_hennabymisba_" target="_blank" class="btn-pill primary">KNOW MORE</a>
+            </div>
+            
+            <!-- Vertical Divider -->
+            <div class="v-divider"></div>
+            
+            <!-- Contact Me Column -->
+            <div class="col-right contact-col">
+                <h2 class="section-title">CONTACT ME</h2>
+                <div class="decorative-sep"><span></span> <i class="flower-dot"></i> <span></span></div>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <span class="contact-icon phone-icon"></span>
+                        <span>+91 9136773615</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon insta-icon"></span>
+                        <span>_hennabymisba_</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon whatsapp-icon"></span>
+                        <span>+91 9136773615</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon loc-icon"></span>
+                        <span>Mumbai, India</span>
+                    </div>
+                </div>
+                <a href="https://wa.me/919136773615" target="_blank" class="btn-pill primary wide">CHAT ON WHATSAPP</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-simple reveal">
+        <div class="section-header">
+            <h2 class="section-title">ARTISTRY GALLERY</h2>
+            <div class="decorative-sep"><span></span> <i class="flower-dot"></i> <span></span></div>
+        </div>
+        <div class="gallery-grid-simple">
+            <div class="gallery-item"><img src="./assets/design_1.png" alt="Work 1"></div>
+            <div class="gallery-item"><img src="./assets/design_2.png" alt="Work 2"></div>
+            <div class="gallery-item"><img src="./assets/design_3.png" alt="Work 3"></div>
+            <div class="gallery-item"><img src="./assets/design_4.png" alt="Work 4"></div>
+            <div class="gallery-item"><img src="./assets/design_5.png" alt="Work 5"></div>
+            <div class="gallery-item"><img src="./assets/design_6.png" alt="Work 6"></div>
+            <div class="gallery-item"><img src="./assets/design_7.png" alt="Work 7"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-simple">
+        <p>&copy; <span id="year">2025</span> Henna by Misba Tales. All Rights Reserved. <span class="heart">♡</span></p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
